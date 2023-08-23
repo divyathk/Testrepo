@@ -1,0 +1,93 @@
+{"employees":[
+    {
+        "name":"Bo English-Wiczling",
+        "title":"Head of DevRel",
+		"department":"Developer relations",
+        "bio":"With over 14 years of experience in developer relations.Bo likes difficult challenges, building things, and making things happen. She hates confusion and stupid processes. "
+    },
+    {
+        "name":"Manish Kapur",
+        "title":"Head of Developer Platforms",
+		"department":"Developer relations",
+        "bio":"Manish is an armchair thinker who likes to dabble with new technologies and solving problems. He believes that developers will change the world for the better. Manish enjoys watching sports (NFL, NBA, Cricket), spending time with his family, and traveling "
+    },
+	{
+        "name":"Jane Hall",
+        "title":"Dev Marketing APAC",
+		"department":"Marketing",
+        "bio":"Jane is passionate, developer marketing passionate. Heading the charge across Asia-Pacific and Japan, she is determined in her cause. Jane is a Jedi."
+    },
+	{
+        "name":"Ettore Volpicelli",
+        "title":"Dev Marketing EMEA",
+		"department":"Marketing",
+        "bio":"Ettore is a marketer who loves to find solutions on how developers can be engaged and have fun with Oracle. A cook who lives in Italy, Ettore loves spends time enjoying his passions, including football (soccer) and motorcycles! "
+    },
+	{
+        "name":"Felipe A. Jaramillo M.",
+        "title":"Dev Marketing LAD",
+		"department":"Marketing",
+        "bio":"Hola! With over 16 years of experience in marketing, Dad in love, IT marketing specialist and proud to be Colombian. Amateur cyclist and runner. Español, English & Português (+ Spanglish & Portunhol). "
+    },
+	{
+        "name":"Tara Van Cleave",
+        "title":"Developer Marketing Event Manager",
+		"department":"Event Management",
+        "bio":"Tara is a marketer who makes events happen around the world. She likes running, practicing French, traveling, and living in Austin, TX. "
+    },
+	{
+        "name":"Tim Clegg",
+        "title":"DevSecOps Guru",
+		"department":"DevOps",
+        "bio":"Tim loves to solve challenges with technology and invent new things. His work often begins where others have stopped. Tim's passionate about inspiring, mentoring, and leading others in their professional careers. Outside of work, he enjoys working with his hands and operating anything that has an engine or motor. "
+    },
+	{
+        "name":"Chris Bensen",
+        "title":"Chief Inventor",
+		"department":"R&D",
+        "bio":"Software Architect, photographer and professional maker, Chris is the creator of the World's Largest Raspberry Pi Cluster that we know of and the World's largest working Lego Computer. "
+    },
+	{
+        "name":"Valdecir Carvalho",
+        "title":"Community Experience Analyst",
+		"department":"HR",
+        "bio":"Val (@homelaber) is a Community Manager for the DevRel team who runs on energetic drinks. He's based in São Paulo, Brazil. He's a community lover, IT infrastructure guy, blogger, and retired wedding photographer. Loves beers and oddly hates coffee. "
+    },
+	{
+        "name":"Ignacio Guillermo Martínez",
+        "title":"Data Scientist Advocate",
+		"department":"Development ",
+        "bio":"A natural born programmer who started life in tech as a hobby, though that hobby became more serious. His purpose is to help the world grow through new technologies. "
+    },
+	{
+        "name":"Huw Parry",
+        "title":"Community Insights Director",
+		"department":"HR",
+        "bio":"With an eye for detail and strong intuition, Huw likes to see around corners, but uses data to help, obviously. Find him outdoors, usually on a bike. "
+    },
+	{
+        "name":"Erin Dawson",
+        "title":"DevRel Communications Manager",
+		"department":"Developer relations",
+        "bio":"Erin Dawson is a writer on the DevRel team who lives in Los Angeles, CA. She likes basketball, making ambient music, and watching the where-are-they-now endings to documentaries."
+    },
+	{
+        "name":"Manjunath R",
+        "title":"Principal Technical Program Manager",
+		"department":"Development",
+        "bio":"A curated minimalist. Believes complex problems have simple solutions. A disciplined individual who likes exploring nature and adventure trips. In his free time, researches sustainable farming to make the world a happy place "
+    },
+	{
+        "name":"Sonia Enriquez",
+        "title":"Visual and Production Designer",
+		"department":"R&D",
+        "bio":"Sonia is a visual designer who enjoys communicating complex messages in a clear and appealing way. Strong advocate for human-centered design approaches and skincare routines. "
+    },
+	{
+        "name":"Carlos Pano",
+        "title":"Web Developer",
+		"department":"Development",
+        "bio":"Carlos is a web developer that likes extreme adventures. He likes to learn new things everyday, watch movies, and explore different technologies so your app works perfectly fine. #CatsLover "
+    }
+	
+]}

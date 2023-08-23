@@ -1,0 +1,60 @@
+<!DOCTYPE html5>
+<!-- This Website template is created by: Divya Singh Thakur c0838228 09-11-2021  -->
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/team.css">
+		<title>Future Shoe Company</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>    
+		<script src="js/jquery.highlight.js"></script>           
+		<script src="js/menu.js"></script>
+		<script src="js/team.js"></script>
+		<script src="js/photos.js"></script> 
+	</head>
+	<body>
+
+		<div id="container">
+
+		<!-- Use the header area for the website Name or Logo -->
+		<header>
+			<a href="index.html"><img src="images/logo.jpg" alt="Future Shoe Company Logo" height="150" width="180"></a>
+		</header>
+
+		<!-- Use the nav area to add Hyperlinks to other pages within the website -->
+		<nav>
+			<ul id='vecta_menu'>
+				<div class="topnav">
+					<a class="active" href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="team.html">Our team</a>
+					<a href="specials.html">Specials</a>
+					<a href="training.html">Training</a>
+					<a href="contact.html">Contact Us</a>
+					<div class="dropdown">
+					   <a>Reports</a>
+					   <div class="dropdown-content">
+						   <a href="http://12.42.204.30:7479/shoes_grid1.html">Report1</a>
+						   <a href="http://12.42.204.30:7479/shoes_grid2.html">Report2</a>
+						   <a href="http://12.42.204.30:7479/shoes_grid3.html">Report3</a>
+						   <a href="http://12.42.204.30:7479/shoes_grid4.html">Report4</a>
+					  </div>
+				   </div>
+			   </div>
+		</nav>
+
+		<!-- get photos from flickr-->
+            <div id="photos"></div>		
+		<!-- Use the main area to add the main content to the website -->
+		<main>
+			<!-- get employees data from json-->
+			<div id ="team"></div>
+		</main>
+
+		<!-- Use the footer area to add website footer content -->
+		<footer>
+			&copy; Copyright 2015. All Rights Reserved. <br>
+			<a href="mailto:futureshoecompany@club.net">futureshoecompany@club.net</a>
+		</footer>
+	</body>
+</html>

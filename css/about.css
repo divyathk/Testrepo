@@ -1,0 +1,237 @@
+/* Style sheet is created by: Divya Singh Thakur c0838228 09-11-2021  */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #ffffff ;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.2em;
+}
+
+/* Style to create a fluid image */
+img {
+	max-width: 100%;
+
+}
+
+/* Style for nav specifies a float, margin, and width */
+nav {
+	float: right;
+	margin-top: -8em;
+	margin-right: 8em;
+	width: 65%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+ }
+ 
+ /* Style the links inside the navigation bar */
+ .topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	margin: 0.1em;
+ }
+ 
+ /* Change the color of links on hover */
+ .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+ }
+ 
+ /* Add a color to the active/current link */
+ .topnav a.active {
+	background-color: rgb(3, 86, 35);
+	color: white;
+ }
+ 
+ .dropdown {
+			 float: left;
+			 overflow: hidden;
+ }
+		 
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #948a8a;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+.dropdown-content a {
+ float: none;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+}
+
+.dropdown-content a:hover {
+ background-color: rgb(208, 193, 193);
+}
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+nav a:hover, .dropdown:hover .dropbtn {
+ background-color: rgb(134, 119, 119);
+}
+
+/* Style for container centers the page and sets the element width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*  Style for the header specifies top margin, background color, rounded corners, and center- aligns contentt */
+header {
+	text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+	margin-right: 1px;
+}
+
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+}
+
+ /* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #FFFFFF;
+}
+
+/*	Style	for anchor elements within the footer element */
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Style hides the tablet class */
+.table {
+	display: none;
+}
+
+ /* Style rule specifies to not display the equip class */
+.equip {
+	display: none;
+}
+
+/* Style for aside element */
+aside {
+	font-style: italic;
+}
+
+div.hide {
+	display: none;
+}
+ul {
+	padding-left: 45px;
+}
+
+li {
+	list-style-type: circle;
+	color: #5a5454;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.0em;
+	margin-left: 4em;
+}
+a, a:focus, a:hover {
+	color: blue;
+}
+
+p {
+	color: #0a0a0a;
+	margin-left: 2em;
+}
+
+/*Style for sound class*/
+.sound {
+	text-align: center;
+}
+
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+
+ @media only screen and (min-width: 660px) {
+
+	 /* Style specifies to hide the mobile class */
+	 .mobile {
+		 display: none;
+	 }
+
+	 /* Style specifies to display the desktop class */
+	 .desktop {
+		 display: inline;
+	 }
+
+	 /* Style specifies a display, float, and padding for the equip class */
+	 .equip {
+		 display: inline;
+		 float: left;
+		 margin-right: 1.5em;
+	 }
+
+	 /* Style specifies to display the tablet class */
+	 .tablet {
+		 display: block;
+		 margin-top: -3em;
+		 margin-bottom: -1em;
+	 }
+
+	 /* Style for h1 element */
+	 h1 {
+		text-align: left;
+		font-family: Georgia, "Times New Roman", serif;
+	    font-size: 1.0em;
+	    font-weight: bold;
+	 }
+
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 830px. */
+
+@media only screen and (min-width: 830px) {
+
+	/* Style specifies a width for container */
+	#container {
+		background-color: #e0dbdb;
+	}
+
+	/* Style to left align header */
+	header {
+		text-align: left;
+	}
+
+	/* Style applies color to h1 element */
+	h1 {
+		color: #0a0a0a;
+		font-family: Georgia, "Times New Roman", serif;
+	    font-size: 1.0em;
+	    font-weight: bold;
+		margin-left: 2em;
+	}
+
+	/* Style specifies a background color, margin, and padding for footer element */
+	footer {
+		background-color: #2A2A2A;
+		margin-top: 1.4em;
+		padding: 2em;
+	}
+
+}

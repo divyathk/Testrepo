@@ -1,0 +1,142 @@
+/* Style sheet created by: Divya Singh Thakur On 02-12-2021 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #cdb7b7;
+}
+
+/* Style for the container centers the page and specifies the width */
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	background-color: #dedfde;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 1000px;
+    border: 3px solid rgb(30, 84, 5);
+    padding: 10px 20px;
+}
+
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+legend {
+    color: blue;
+	text-align: center;
+    font-weight: bold;
+    font-size: 95%;
+    margin-bottom: .5em;
+}
+label {
+	float: left;
+    width: 90px;
+}
+input, select {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+}
+input {
+    width: 14em;	
+}
+#submit {
+	margin-left: 0;
+	width: 10em;
+}
+label.error {
+	float: none;
+	color: red;
+	font-size: 87.5%;
+}
+
+/* Style displys the mobile class */
+.mobile {
+	display: inline;
+}
+
+section article {
+	width: 22%;
+	float: left;
+	height: 15em;
+}
+
+/*Style for input, select and textarea tag*/
+input, select, textarea {
+	margin-bottom: 1em;
+}
+
+@media only screen and (min-width:481px) {
+
+	.mobile {
+		display: none;
+	}
+
+	/* Hiding Desktop class for mobile layout */
+	.desktop {
+		display: none;
+	}
+
+	article h3 {
+		text-align: center;
+	}
+
+	figure {
+		text-align: center;
+	}
+
+	figcaption{
+		color:#000066;
+	}
+
+	section {
+		padding: 1em;
+	}
+
+	article {
+		margin: 1em;
+		padding: 1em;
+		background-color: #ACB7E6;
+	}
+
+}
+
+@media only screen and (min-width: 769px) {
+
+	#container {
+		width: 80%;
+	}
+
+	main {
+		border: none;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em #331400;
+		margin-top: 1em;
+	}
+}
